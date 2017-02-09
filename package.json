@@ -1,24 +1,25 @@
 {
-  "name": "sg-hazometer",
-  "version": "1.0.0",
-  "description": "easy retrieval of pollutant/air quality information/haze levels from NEA APIs at data.gov.sg",
-  "main": "sg-hazometer.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "haze",
-    "psi",
-    "pm2.5",
-    "nea",
-    "data.gov.sg"
-  ],
-  "author": "Huey <leejinhuey@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "requests": "^0.1.7"
-  },
+	"name": "sg-hazometer",
+	"version": "1.0.0",
+	"description": "easy retrieval of pollutant/air quality information/haze levels from NEA APIs at data.gov.sg",
+	"main": "sg-hazometer.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"haze",
+		"psi",
+		"pm2.5",
+		"nea",
+		"data.gov.sg"
+	],
+	"author": "Huey <leejinhuey@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"requests": "^0.1.7"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hueyy/sg-hazometer.git"
+	}
 }
