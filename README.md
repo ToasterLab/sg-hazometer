@@ -112,14 +112,23 @@ You'll get something like the following:
 ### What do all these terms mean?
 
 `summary`: human-readable assessment of current air quality (see [this](http://www.haze.gov.sg/images/default-source/default-album/psi-poster.jpg))
+
 `dailyPM10`: 24h readings for particulate matter 10 micrometers or less in diameter
+
 `dailyPM25`: ditto, but for particulate matter 2.5 micrometers or less in diameter
+
 `8hCO`: 8h readings for Carbon Monoxide levels
+
 `2hNO2`: 2h readings for Nitrogen Dioxide levels
+
 `dailySO2`: 24h readings for Sulfur Dioxide levels
+
 `8hO3`: 8h readings for Ozone levels
+
 `3hPSI`: 3h readings for the NEA-released Particulate Matter Index (PSI)
+
 `dailyPSI`: ditto but every 24h
+
 `location`: coordinates of the points at which the readings are taken at
 
 ### Why don't the `dateTime` or `date` parameters seem to do anything?
