@@ -1,6 +1,6 @@
 # [`sg-hazometer`](https://github.com/hueyy/sg-hazometer)
 
-The Singapore Hazometer is a simple `npm` module allowing for easy retrieval of pollutant data from [`data.gov.sg`](https://data.gov.sg), which is in turn sourced from NEA.
+The Singapore Hazometer is a simple [`npm` module](https://www.npmjs.com/package/sg-hazometer) allowing for easy retrieval of pollutant data from [`data.gov.sg`](https://data.gov.sg), which is in turn sourced from NEA.
 
 	`node demo.js`
 
