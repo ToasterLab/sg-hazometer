@@ -21,8 +21,8 @@ hazometer.prototype.getInfo = function(params, callback) {
 	let {apiKey, dateTime, date} = params
 	let qs = {}
 	checkForKey(apiKey)
-	if(dateTime !== undefined){qs.date_time = dateTime}
-	if(date === undefined){qs.date = date}
+	if(dateTime){qs.date_time = dateTime}
+	if(!date){qs.date = date}
 	req({
 		url: urls.psi,
 		headers: {'api-key': apiKey},
@@ -54,8 +54,8 @@ hazometer.prototype.getPM25 = function(params, callback){
 	let {apiKey, dateTime, date} = params
 	let qs = {}
 	checkForKey(apiKey)
-	if(dateTime !== undefined){qs.date_time = dateTime}
-	if(date === undefined){qs.date = date}
+	if(dateTime){qs.date_time = dateTime}
+	if(!date){qs.date = date}
 	req({
 		url: urls.pm25,
 		headers: {'api-key': apiKey},
